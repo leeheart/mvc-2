@@ -1,0 +1,18 @@
+#app2 .tab-bar{
+  display: flex;
+}
+#app2 .tab-bar > li{
+  border: 1px solid grey;
+  flex-grow: 1;
+}
+#app2 .tab-bar > li.selected{
+  background: #FEE692;
+  color: white;
+}
+#app2 .tab-content{}
+#app2 .tab-content > li{
+  display: none;
+}
+#app2 .tab-content > li.active{
+  display: block;
+}
